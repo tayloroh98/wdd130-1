@@ -1,0 +1,33 @@
+html {
+background: pink
+}
+
+.list{
+    width: 25%;
+    margin: 0 auto;
+    text-align: left
+}
+
+body{
+    text-align:center;
+}
+
+.white{
+    color: white
+}
+
+#image{
+    width: 25%
+}
+
+#first_quote{
+    font-size: 50%
+}
+
+#second_quote{
+    font-size: 200%
+}
+
+#from{
+    font-size: 50%;
+}
