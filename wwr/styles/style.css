@@ -43,7 +43,7 @@ header {
 
 nav a:hover{
     background-color: rgb(255, 255, 255);
-    color: #d9c2a3;
+    color: #313131;
 }
 
 .book, .join{
@@ -67,7 +67,7 @@ footer {
 }
 
 nav a{
-    color:#d9c2a3;
+    color:#4d4d4d;
 }
 
 .home-title {
@@ -75,7 +75,7 @@ nav a{
 }
 
 h4 {
-    color:aqua;
+    color:rgb(91, 94, 94);
 }
 
 .book:hover, .join:hover {
@@ -91,11 +91,11 @@ h4 {
 }
 
 footer h3 {
-    color:bisque;
+    color:rgb(126, 117, 106);
 }
 
 footer a {
-    color:yellow;
+    color:rgb(114, 114, 114);
     text-decoration: none;
 }
 
