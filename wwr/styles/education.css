@@ -1,33 +1,9 @@
-html {
-background: pink
+body {
+    background: #ffffff; 
+    height: 100%;
 }
 
-.list{
-    width: 25%;
-    margin: 0 auto;
-    text-align: left
+.pic {
+    margin-left: 20%;
 }
 
-body{
-    text-align:center;
-}
-
-.white{
-    color: white
-}
-
-#image{
-    width: 25%
-}
-
-#first_quote{
-    font-size: 50%
-}
-
-#second_quote{
-    font-size: 200%
-}
-
-#from{
-    font-size: 50%;
-}
