@@ -24,6 +24,7 @@ body {
     font-size: 18px;
     padding: 15px 30px;
     border-radius: 5px;
+    margin-top: 50px;
 
 }
 
@@ -95,6 +96,7 @@ header {
     color:#161827;
     font-family: 'Rock Salt','Bradley Hand', sans-serif;
     font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -125,6 +127,7 @@ footer h3 a:hover {
 footer {
     background-color: #EFD3D7;
     padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer h3 {
@@ -142,4 +145,7 @@ footer a:hover {
 
 .social {
     padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
 }
