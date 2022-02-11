@@ -1,9 +1,129 @@
 body {
-    background: #ffffff; 
+    background: black; 
     height: 100%;
 }
-
-.pic {
-    margin-left: 20%;
+header{
+    text-align: center;
 }
 
+div img{
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+.word {
+    margin: 0 auto;
+}
+
+.help {
+    margin-right: 25px;
+}
+.title {
+    box-sizing: border-box;
+    color: white;
+    width: 500px;
+    height: 50px;
+    font-size: 36px;
+    font-weight: 700;
+    border-bottom-style: solid;
+    border-bottom-color: #3a3a3c;
+    display: inline-flex;
+    
+}
+
+#board-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    margin-top: 30px;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(6,1fr);
+    width: 350px;
+    height: 420px;
+    grid-gap: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.box {
+    display: inline-block;
+    width: 59px;
+    height: 59px;
+    border-style: solid;
+    border-color: #3a3a3c;
+
+}
+ 
+
+#keyboard {
+   margin: 0 auto;
+   margin-top: 50px;
+   width: 500px;
+   height: 200px;
+}
+
+.row {
+    display: flex;
+    width:100%;
+    margin: 0 auto 8px;  
+    align-items: center; 
+    flex-grow: 1.5;
+}
+
+.key {
+    font-weight: bold;
+    border: 0;
+    padding: 0;
+    margin: 0 6px 0 0;
+    height: 58px;
+    border-radius: 4px;
+    background-color: #818384;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.space {
+    width: 4%;
+    height: 58px;
+}
+
+.key-enter{
+    font-weight: bold;
+    font-size: 12px;
+    border: 0;
+    padding: 0;
+    margin: 0 6px 0 0;
+    height: 58px;
+    border-radius: 4px;
+    background-color: #818384;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+    flex-grow: 1.5;
+}
+
+.backspace {
+    border: 0;
+    padding: 0;
+    margin: 0 6px 0 0;
+    height: 58px;
+    border-radius: 4px;
+    background-color: #818384;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1.5;
+}
