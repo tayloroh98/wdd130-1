@@ -1,6 +1,6 @@
 #background {
     height: 725px;
-    background-color:rgb(54, 24, 4);
+    background-color:#b47eb3;
     grid-column: 1/11;
     grid-row: 4/9;
 }
@@ -24,6 +24,10 @@ main {
     grid-template-columns: repeat(1fr, 11);
     grid-template-rows: repeat(1fr, 11);
     margin-top: 100px;
+}
+
+.main2 {
+    margin-top: -400px;
 }
 
 nav {
@@ -64,6 +68,16 @@ nav a:hover{
     background-color: #31313185;
 }
 
+#hero-msg2 {
+    grid-column: 2/3;
+    grid-row: 1;
+    margin-top: 200px;
+    margin-bottom: 300px;
+    background-color: #31313185;
+    color: white;
+    text-align: center;
+}
+
 #hero-msg h2{
     text-align: center;
     color: white
@@ -93,7 +107,12 @@ nav a:hover{
 
 .title {
     text-align: center;
-    margin-top: -400px;
+    margin-top: -200px;
+}
+
+.title2 {
+    text-align: center;
+    margin-top: -500px;
 }
 
 header {
@@ -121,6 +140,11 @@ header {
     grid-row:  9/11;
     width: 500px;
     height: 500px;
+}
+
+#korea-pic {
+    width: 700px;
+    height: 400px;
 }
 
 .description1 {

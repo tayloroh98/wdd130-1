@@ -6,10 +6,10 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #b47eb3   ;
-  --secondary-color: #fdf5bf ;
+  --primary-color: #9aeae0;
+  --secondary-color: #FEEAFA;
   --accent1-color: #ffd5ff;
-  --accent2-color: #92d1c3;
+  --accent2-color: #EFD3D7;
 
   /* change the values below to your chosen font(s) */
   --heading-font: 'Oswald', sans-serif;
